@@ -1,8 +1,6 @@
 # AI Research Assistant Agent
 
-**Course:** ITAI 2376 – Capstone Project  
-**Group Name:** [Your Group Name]  
-**Team Members:** [List Full Names]
+ITAI 2376 – Capstone Project  
 
 ## Overview
 This agent helps users gather, summarize, and organize academic research content using external tools and reinforcement feedback.
@@ -14,9 +12,10 @@ This agent helps users gather, summarize, and organize academic research content
 - Structured report generation
 
 ## Tools Used
-- OpenAI GPT-3.5 Turbo
-- SerpAPI / arXiv API
-- LangChain
+- **arXiv API** – for retrieving real academic abstracts without requiring an API key
+- **Hugging Face Transformers** – used DistilBART (`sshleifer/distilbart-cnn-12-6`) for text summarization
+- **Python Standard Libraries** – including `requests` for API access and `xml.etree.ElementTree` for XML parsing
+
 
 ## How to Run
 1. Clone the repository:
